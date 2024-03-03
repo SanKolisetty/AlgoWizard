@@ -44,7 +44,7 @@ Each learning module includes instructional content, interactive demonstrations,
 
 # Demo
 
-Here is a [demo]([https://github.com/Voyz/voyz_public/blob/master/databay_promo_vidA_gif_A03.gif](https://github.com/SanKolisetty/AlgoWizard/blob/main/AlgoWizard%20Demo.mp4)) of the software application.
+Here is a [demo](https://youtu.be/fd7EICf8vKc) of the software application.
 
 # Installation
 [(Back to top)](#table-of-contents)
