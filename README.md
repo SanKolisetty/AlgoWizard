@@ -15,6 +15,7 @@ This application has been built as a Windows Forms application in VB.NET. It use
 - [Installation](#installation)
 - [Database Schema](#database-schema)
 - [Design of the Software](#design-of-the-software)
+- [Authors](#authors)
 
 # Brief Overview
 [(Back to top)](#table-of-contents)
