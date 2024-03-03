@@ -81,13 +81,7 @@ Now, click on `Add Reference` and go to `Browse`. Now follow this path
 ```
 and select `MySQL.Data.dll`. This creates the connection we require between the Database and the Windows Application Form.
 
-Execute the following code in terminal
-
-```shell
-  .\Assignment_2_8B\bin\Debug\Assignment_2_8B.exe
-
-```
-Finally, login or sign-up according to your requirements.
+The software is all set up to run.
 
 # Database Schema
 - The database schema includes a table named queue containing quiz questions and options.
