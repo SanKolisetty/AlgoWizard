@@ -1,6 +1,8 @@
 # AlgoWizard
 
-![Banner](./banneraiimg.jpg)
+<p float="left">
+  <img src="Images/banner.png" />
+</p>
 
 AlgoWizard is a software application designed to educate students on the fundamental concepts of “Data Structures” through interactive learning modules, visuals, and quizzes to improve comprehension and engagement. Basic topics like Searching, Sorting, Arrays, Stacks, Queues, Linked Lists, and so on have been covered.
 
