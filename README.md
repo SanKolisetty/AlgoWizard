@@ -108,10 +108,15 @@ We had four weeks to develop the software. Dividing the time given to three main
 - **Creating a Proposal**<br>
  In this stage, we made a 10 page document outlining the requirements and have drawn dataflow diagrams and designed the interface. Level 1 DFD of the software has been given below.
   
-![Level 1 (3)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/42781248-2b4d-4b75-a9ad-0adb6ad5550a)
+![Level 1 (3)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/42781248-2b4d-4b75-a9ad-0adb6ad5550a)  ![Screenshot 2024-03-03 234221](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/fae3d3b5-a2df-4be3-b2a4-08cefdc7f79b) ![Screenshot 2024-03-03 234257](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/3f28286b-803d-48da-b289-5b7bcd4c9443) ![Screenshot 2024-03-03 234326](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/86c5247b-e61e-45f3-83b7-f781d722412f)
+
 
 - **Starting Out** <br>
-  We have followed the `Incremental Model` of software developement process. Thus, we started with the basic features like main menu for selection of learning topic and visualization of each topic. Below are the pictures of textual information, interactive visualization and quiz added as a part of the initial stages of the developement process.
+
+  We have followed the `Incremental Model` of software developement process. Thus, we started with the basic features like main menu for selection of learning topic and visualization of each topic. Below are the pictures of textual i
+nformation, interactive visualization and quiz added as a part of the initial stages of the developement process.
+![Screenshot 2024-03-03 233801](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/4b46486f-f2ad-4821-91fa-14273cfb3316)
+
 
 - **Completion of the Software** <br>
 In the final stages of the software, we have further enhanced our software by adding extra features like
@@ -121,5 +126,5 @@ In the final stages of the software, we have further enhanced our software by ad
     Since we have added user authentication to the software, we can always access the user's details from the database using the `username`, which is the primary key of the table `users`. These details are shown to the user in the profile page.
   * **Randomization of quiz questions:** <br>
     We have a set of 15 questions for each topic stored in a table in the database. Randomly, ten questions are shown to the user for the quiz. After the user attempts the quiz and submits it, his/her responses are checked agains the correct options in the database and progress of the user in that specific topic is modified to the maximum of the current progress and the score in the quiz where progress is equal to the number of questions answered correctly by the user. In case of searching and sorting, since we have sub-topics, the mean of the progress in each of the sub-topics is shown as the progress for that topic.
-  
+
 
