@@ -96,9 +96,7 @@ We have created a Database by the name `swe_assign2`. It contains 10 tables.
 - **insertion_sort**: Stores the quiz questions of insertion sort
 - **merge_sort**: Stores the quiz questions merge sort
 
-Below is a picture of the database schema which contains the details of each table.
-
-![Blank diagram (2)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/e76bec88-44ce-4b03-b555-0f5de3ed08ed)
+A picture of the database schema which contains the details of each table is given in the next section.
 
 # Design of the Software
 [(Back to top)](#table-of-contents)
@@ -108,7 +106,7 @@ We had four weeks to develop the software. Dividing the time given to three main
 - **Creating a Proposal**<br>
  In this stage, we made a 10 page document outlining the requirements and have drawn dataflow diagrams and designed the interface. Level 1 DFD of the software has been given below.
 
-![Level 1 (3)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/fb5b460c-7fc3-4683-b558-9fed14b7cbb1)
+![Blank diagram (2)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/e76bec88-44ce-4b03-b555-0f5de3ed08ed) ![Level 1 (3)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/fb5b460c-7fc3-4683-b558-9fed14b7cbb1)
 
 
 - **Starting Out** <br>
