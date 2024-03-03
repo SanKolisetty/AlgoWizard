@@ -104,10 +104,9 @@ A picture of the database schema which contains the details of each table is giv
 We had four weeks to develop the software. Dividing the time given to three main periods, i.e. creating a proposal, starting out and completion of the software, here is a dive into the three stages of the software developement.
 
 - **Creating a Proposal**<br>
- In this stage, we made a 10 page document outlining the requirements and have drawn dataflow diagrams and designed the interface. Level 1 DFD of the software has been given below.
+ In this stage, we made a 10 page document outlining the requirements and have drawn dataflow diagrams and designed the interface. Database Schema and Level 1 DFD of the software has been given below.
 
-![Blank diagram (2)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/e76bec88-44ce-4b03-b555-0f5de3ed08ed) ![Level 1 (3)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/fb5b460c-7fc3-4683-b558-9fed14b7cbb1)
-
+![What do you want to learn today (13)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/0cd921ad-4bff-487a-a434-f1c11d369c0c)
 
 - **Starting Out** <br>
 
