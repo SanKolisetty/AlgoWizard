@@ -132,8 +132,8 @@ In the final stages of the software, we have further enhanced our software by ad
     Since we have added user authentication to the software, we can always access the user's details from the database using the `username`, which is the primary key of the table `users`. These details are shown to the user in the profile page.
 
   <p float="left">
-    <img src="Images/home_page.png" width="266" />
-    <img src="Images/sign_up.png" width="266" /> 
+    <img src="Images/home_page.png" width="260" />
+    <img src="Images/sign_up.png" width="260" /> 
     <img src="Images/login.png" width="260" /> 
   </p>
 
