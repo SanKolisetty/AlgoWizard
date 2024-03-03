@@ -67,9 +67,7 @@ The repository has been cloned in your folder. Now, we need to install the depen
 
 After MySQL has been installed, create the database as instructed in the SQL query uploaded in the repository.
 
-To connect the Windows Application Form with the database in MySQL, we require MySQL Connector/NET which can be downloaded from [here](https://downloads.mysql.com/archives/c-net/). Since we had to use Visual Studio 2010, the version of the connector that works with this is 6.5.4. After installing the connector, we need to create the connection between the database and the current project. For this, open the .sln file using Visual Studio 2010 and right-click on the folder of the project and the drop-down menu given below will be shown.
-
-![file_2024-03-03_15 01 03](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/3a505397-0619-4a66-b48f-b3bb79ab147b)
+To connect the Windows Application Form with the database in MySQL, we require MySQL Connector/NET which can be downloaded from [here](https://downloads.mysql.com/archives/c-net/). Since we had to use Visual Studio 2010, the version of the connector that works with this is 6.5.4. After installing the connector, we need to create the connection between the database and the current project. For this, open the .sln file using Visual Studio 2010 and right-click on the folder of the project and the drop-down menu given [here](https://github.com/SanKolisetty/AlgoWizard/blob/main/Images/Adding%20Reference.png) will be shown.
 
 Now, click on `Add Reference` and go to `Browse`. Now follow this path
 
@@ -107,15 +105,23 @@ We had four weeks to develop the software. Dividing the time given to three main
  In this stage, we made a 10 page document outlining the requirements and have drawn dataflow diagrams and designed the interface. Database Schema and Level 1 DFD of the software has been given below.
 
 <p float="left">
-  <img src="/Database schema.png" width="500" />
-  <img src="/Level 1 DFD.png" width="500" /> 
+  <img src="Images/Database schema.png" width="500" />
+  <img src="Images/Level 1 DFD.png" width="500" /> 
 </p>
 
 - **Starting Out** <br>
 
   We have followed the `Incremental Model` of software developement process. Thus, we started with the basic features like main menu for selection of learning topic and visualization of each topic. Below are the pictures of textual information, interactive visualization and quiz added as a part of the initial stages of the developement process.
 
-![What do you want to learn today (12)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/52e8bbe0-78af-4306-acf5-bc9edb2ae4ce)
+<p float="left">
+  <img src="Images/main_menu.jpg" width="500" />
+  <img src="Images/textual_information.png" width="500" /> 
+</p>
+
+<p float="left">
+  <img src="Images/interactive_visualization.png" width="500" />
+  <img src="Images/quiz.png" width="500" /> 
+</p>
 
 - **Completion of the Software** <br>
 In the final stages of the software, we have further enhanced our software by adding extra features like
@@ -123,8 +129,12 @@ In the final stages of the software, we have further enhanced our software by ad
   We use the `users` database to store the details of the user. The username and password are checked in the database to login the user. Otherwise, the user has to create an account which add the details of the user to the database for the user to directly login the next time.
   * **Profile page to show the user's progress in each topic:**<br>
     Since we have added user authentication to the software, we can always access the user's details from the database using the `username`, which is the primary key of the table `users`. These details are shown to the user in the profile page.
-    
-![What do you want to learn today (14)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/2201d6b0-1420-4d9b-8e52-86b6b90f82b5)
+
+<p float="left">
+  <img src="Images/home_page.png" width="333" />
+  <img src="Images/sign_up.png" width="333" /> 
+  <img src="Images/login.png" width="333" /> 
+</p>
 
   * **Randomization of quiz questions:** <br>
     We have a set of 15 questions for each topic stored in a table in the database. Randomly, ten questions are shown to the user for the quiz. After the user attempts the quiz and submits it, his/her responses are checked agains the correct options in the database and progress of the user in that specific topic is modified to the maximum of the current progress and the score in the quiz where progress is equal to the number of questions answered correctly by the user. In case of searching and sorting, since we have sub-topics, the mean of the progress in each of the sub-topics is shown as the progress for that topic.
