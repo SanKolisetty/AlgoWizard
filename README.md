@@ -108,7 +108,7 @@ We had four weeks to develop the software. Dividing the time given to three main
 
 <p float="left">
   <img src="/Database schema.png" width="500" />
-  <img src="/Level 1 DFD.png" /> 
+  <img src="/Level 1 DFD.png" width="500" /> 
 </p>
 
 - **Starting Out** <br>
