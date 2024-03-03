@@ -114,13 +114,13 @@ We had four weeks to develop the software. Dividing the time given to three main
   We have followed the `Incremental Model` of software developement process. Thus, we started with the basic features like main menu for selection of learning topic and visualization of each topic. Below are the pictures of textual information, interactive visualization and quiz added as a part of the initial stages of the developement process.
 
 <p float="left">
-  <img src="Images/main_menu.jpg" width="500" />
-  <img src="Images/textual_information.png" width="500" /> 
+  <img src="Images/main_menu.jpg" width="450" />
+  <img src="Images/textual_information.png" width="450" /> 
 </p>
 
 <p float="left">
-  <img src="Images/interactive_visualization.png" width="500" />
-  <img src="Images/quiz.png" width="500" /> 
+  <img src="Images/interactive_visualization.png" width="450" />
+  <img src="Images/quiz.png" width="450" /> 
 </p>
 
 - **Completion of the Software** <br>
