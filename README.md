@@ -2,9 +2,9 @@
 
 ![Banner](./banneraiimg.jpg)
 
-The provided code represents a Windows Forms application of a Data Structures Learning Software implemented in VB.NET.  The application uses MySQL for data storage and retrieval.
+AlgoWizard is a software application designed to educate students on the fundamental concepts of “Data Structures” through interactive learning modules, visuals, and quizzes to improve comprehension and engagement. Basic topics like Searching, Sorting, Arrays, Stacks, Queues, Linked Lists, and so on have been covered.
 
-The Data Structures Learning Software is a comprehensive tool designed to teach students fundamental concepts of data structures such as searching, sorting, arrays, stacks, queues, linked lists, etc. It provides step-by-step explanations, interactive learning modules, graphics, and quizzes to enhance the learning experience.
+This application has been built as a Windows Forms application in VB.NET. It uses MySQL for data storage and retrieval. This project has been made as a part of the course CS346: Software Engineering Laboratory, Spring 24.
 
 # Table of Contents
 
