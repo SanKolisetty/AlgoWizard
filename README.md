@@ -107,14 +107,15 @@ We had four weeks to develop the software. Dividing the time given to three main
 
 - **Creating a Proposal**<br>
  In this stage, we made a 10 page document outlining the requirements and have drawn dataflow diagrams and designed the interface. Level 1 DFD of the software has been given below.
-  
+
+![Level 1 (3)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/fb5b460c-7fc3-4683-b558-9fed14b7cbb1)
+
 
 - **Starting Out** <br>
 
-  We have followed the `Incremental Model` of software developement process. Thus, we started with the basic features like main menu for selection of learning topic and visualization of each topic. Below are the pictures of textual i
-nformation, interactive visualization and quiz added as a part of the initial stages of the developement process.
-![Screenshot 2024-03-03 233801](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/4b46486f-f2ad-4821-91fa-14273cfb3316)
+  We have followed the `Incremental Model` of software developement process. Thus, we started with the basic features like main menu for selection of learning topic and visualization of each topic. Below are the pictures of textual information, interactive visualization and quiz added as a part of the initial stages of the developement process.
 
+![What do you want to learn today (12)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/52e8bbe0-78af-4306-acf5-bc9edb2ae4ce)
 
 - **Completion of the Software** <br>
 In the final stages of the software, we have further enhanced our software by adding extra features like
