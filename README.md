@@ -84,16 +84,16 @@ The software is all set up to run.
 
 We have created a Database by the name `swe_assign2`. It contains 10 tables.
 
-- **users**: Stores all the details of the user and their progress so far
-- **array**: Stores the quiz questions of user
-- **stack**: Stores the quiz questions of stack
-- **queue**: Stores the quiz questions of queue
-- **linkedlist**: Stores the quiz questions of linked list
-- **linear_search**: Stores the quiz questions of linear search
-- **binary_search**: Stores the quiz questions of binary search
-- **bubble_sort**: Stores the quiz questions of bubble sort
-- **insertion_sort**: Stores the quiz questions of insertion sort
-- **merge_sort**: Stores the quiz questions merge sort
+- `users`: Stores all the details of the user and their progress so far
+- `array`: Stores the quiz questions of user
+- `stack`: Stores the quiz questions of stack
+- `queue`: Stores the quiz questions of queue
+- `linkedlist`: Stores the quiz questions of linked list
+- `linear_search`: Stores the quiz questions of linear search
+- `binary_search`: Stores the quiz questions of binary search
+- `bubble_sort`: Stores the quiz questions of bubble sort
+- `insertion_sort`: Stores the quiz questions of insertion sort
+- `merge_sort`: Stores the quiz questions merge sort
 
 A picture of the database schema which contains the details of each table is given in the next section.
 
@@ -131,11 +131,11 @@ In the final stages of the software, we have further enhanced our software by ad
   * **Profile page to show the user's progress in each topic:**<br>
     Since we have added user authentication to the software, we can always access the user's details from the database using the `username`, which is the primary key of the table `users`. These details are shown to the user in the profile page.
 
-<p float="left">
-  <img src="Images/home_page.png" width="266" />
-  <img src="Images/sign_up.png" width="266" /> 
-  <img src="Images/login.png" width="266" /> 
-</p>
+  <p float="left">
+    <img src="Images/home_page.png" width="266" />
+    <img src="Images/sign_up.png" width="266" /> 
+    <img src="Images/login.png" width="266" /> 
+  </p>
 
   * **Randomization of quiz questions:** <br>
     We have a set of 15 questions for each topic stored in a table in the database. Randomly, ten questions are shown to the user for the quiz. After the user attempts the quiz and submits it, his/her responses are checked agains the correct options in the database and progress of the user in that specific topic is modified to the maximum of the current progress and the score in the quiz where progress is equal to the number of questions answered correctly by the user. In case of searching and sorting, since we have sub-topics, the mean of the progress in each of the sub-topics is shown as the progress for that topic.
