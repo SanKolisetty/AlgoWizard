@@ -13,7 +13,6 @@ This application has been built as a Windows Forms application in VB.NET. It use
 - [AlgoWizard](#algowizard)
 - [Table of Contents](#table-of-contents)
 - [Brief Overview](#brief-overview)
-- [Demo](#demo)
 - [Installation](#installation)
 - [Database Schema](#database-schema)
 - [Design of the Software](#design-of-the-software)
@@ -41,13 +40,6 @@ The Data Structures Learning Software covers the following topics:
   - Linked Lists
     
 Each learning module includes instructional content, interactive demonstrations, and quizzes tailored to the specific topic.
-
-# Demo
-[(Back to top)](#table-of-contents)
-
-Here is a short demo of the deployed web application.
-
-https://github.com/SanKolisetty/AI-Image-Classifier/assets/95172001/0ebe3ffb-4afe-4a7b-96d3-80ce5e7ce99f
 
 # Installation
 [(Back to top)](#table-of-contents)
