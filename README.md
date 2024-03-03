@@ -105,13 +105,21 @@ Below is a picture of the database schema which contains the details of each tab
 
 We had four weeks to develop the software. Dividing the time given to three main periods, i.e. creating a proposal, starting out and completion of the software, here is a dive into the three stages of the software developement.
 
-- **Creating a Proposal**
+- **Creating a Proposal**<br>
  In this stage, we made a 10 page document outlining the requirements and have drawn dataflow diagrams and designed the interface. Level 1 DFD of the software has been given below.
   
 ![Level 1 (3)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/42781248-2b4d-4b75-a9ad-0adb6ad5550a)
 
-- **Starting Out**
+- **Starting Out** <br>
   We have followed the `Incremental Model` of software developement process. Thus, we started with the basic features like main menu for selection of learning topic and visualization of each topic. Below are the pictures of textual information, interactive visualization and quiz added as a part of the initial stages of the developement process.
 
+- **Completion of the Software** <br>
+In the final stages of the software, we have further enhanced our software by adding extra features like
+  * User authentication to keep track of the user's progress <br>
+  We use the `users` database to store the details of the user. The username and password are checked in the database to login the user. Otherwise, the user has to create an account which add the details of the user to the database for the user to directly login the next time.
+  * Profile page to show the user's progress in each topic
+    Since we have added user authentication to the software, we can always access the user's details from the database using the `username`, which is the primary key of the table `users`. These details are shown to the user in the profile page.
+  * Randomization of quiz questions<br>
+    We have a set of 15 questions for each topic stored in a table in the database. Randomly, ten questions are shown to the user for the quiz. After the user attempts the quiz and submits it, his/her responses are checked agains the correct options in the database and progress of the user in that specific topic is modified to the maximum of the current progress and the score in the quiz where progress is equal to the number of questions answered correctly by the user. In case of searching and sorting, since we have sub-topics, the mean of the progress in each of the sub-topics is shown as the progress for that topic.
   
 
