@@ -21,6 +21,8 @@ This application has been built as a Windows Forms application in VB.NET. It use
 # Brief Overview
 [(Back to top)](#table-of-contents)
 
+The goal is to develop a user-friendly software solution that provides organized learning modules on a variety of data structures and algorithms. To make learning easier, the program includes step-by-step explanations, visual aids, and interactive aspects. Quizzes and assessments have been implemented to test students’ understanding and encourage learning.
+
 Key features of the Data Structures Learning Software include:
 
   - Step-by-step explanations of fundamental data structure concepts.
@@ -30,14 +32,12 @@ Key features of the Data Structures Learning Software include:
 
 The Data Structures Learning Software covers the following topics:
 
-  - Searching Algorithms
-  - Sorting Algorithms
+  - Searching Algorithms which include Bubble, Insertion and Merge Sort
+  - Sorting Algorithms which include Linear and Binary Search
   - Arrays
   - Stacks
   - Queues
   - Linked Lists
-  - Trees
-  - Graphs
     
 Each learning module includes instructional content, interactive demonstrations, and quizzes tailored to the specific topic.
 
