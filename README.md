@@ -134,7 +134,7 @@ In the final stages of the software, we have further enhanced our software by ad
   <p float="left">
     <img src="Images/home_page.png" width="266" />
     <img src="Images/sign_up.png" width="266" /> 
-    <img src="Images/login.png" width="266" /> 
+    <img src="Images/login.png" width="260" /> 
   </p>
 
   * **Randomization of quiz questions:** <br>
