@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0802C6FF-4492-49D0-AC2F-91BEBB9EF50A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Assignment_2_8B.My.MyApplication</StartupObject>
+    <RootNamespace>Assignment_2_8B</RootNamespace>
+    <AssemblyName>Assignment_2_8B</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Assignment_2_8B.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Assignment_2_8B.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.5.4\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="array.Designer.vb">
+      <DependentUpon>array.vb</DependentUpon>
+    </Compile>
+    <Compile Include="array.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="binary_search.Designer.vb">
+      <DependentUpon>binary_search.vb</DependentUpon>
+    </Compile>
+    <Compile Include="binary_search.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bubble_sort.Designer.vb">
+      <DependentUpon>bubble_sort.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bubble_sort.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalVariables.vb" />
+    <Compile Include="home_page.Designer.vb">
+      <DependentUpon>home_page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="home_page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="log_in.Designer.vb">
+      <DependentUpon>log_in.vb</DependentUpon>
+    </Compile>
+    <Compile Include="log_in.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main_menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main_menu.Designer.vb">
+      <DependentUpon>main_menu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="insertion_sort.Designer.vb">
+      <DependentUpon>insertion_sort.vb</DependentUpon>
+    </Compile>
+    <Compile Include="insertion_sort.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="linear_search.Designer.vb">
+      <DependentUpon>linear_search.vb</DependentUpon>
+    </Compile>
+    <Compile Include="linear_search.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="linked_list.Designer.vb">
+      <DependentUpon>linked_list.vb</DependentUpon>
+    </Compile>
+    <Compile Include="linked_list.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="linked_list_append_f.Designer.vb">
+      <DependentUpon>linked_list_append_f.vb</DependentUpon>
+    </Compile>
+    <Compile Include="linked_list_append_f.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="linked_list_delete_f.Designer.vb">
+      <DependentUpon>linked_list_delete_f.vb</DependentUpon>
+    </Compile>
+    <Compile Include="linked_list_delete_f.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="linked_list_insert_f.Designer.vb">
+      <DependentUpon>linked_list_insert_f.vb</DependentUpon>
+    </Compile>
+    <Compile Include="linked_list_insert_f.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="linked_list_search_f.Designer.vb">
+      <DependentUpon>linked_list_search_f.vb</DependentUpon>
+    </Compile>
+    <Compile Include="linked_list_search_f.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="merge_sort.Designer.vb">
+      <DependentUpon>merge_sort.vb</DependentUpon>
+    </Compile>
+    <Compile Include="merge_sort.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="profile.Designer.vb">
+      <DependentUpon>profile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="profile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="queue.Designer.vb">
+      <DependentUpon>queue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="queue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searching.Designer.vb">
+      <DependentUpon>searching.vb</DependentUpon>
+    </Compile>
+    <Compile Include="searching.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sign_up.Designer.vb">
+      <DependentUpon>sign_up.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sign_up.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sorting.Designer.vb">
+      <DependentUpon>sorting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sorting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stack.Designer.vb">
+      <DependentUpon>stack.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="array.resx">
+      <DependentUpon>array.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="binary_search.resx">
+      <DependentUpon>binary_search.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bubble_sort.resx">
+      <DependentUpon>bubble_sort.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home_page.resx">
+      <DependentUpon>home_page.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="log_in.resx">
+      <DependentUpon>log_in.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main_menu.resx">
+      <DependentUpon>main_menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="insertion_sort.resx">
+      <DependentUpon>insertion_sort.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="linear_search.resx">
+      <DependentUpon>linear_search.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="linked_list.resx">
+      <DependentUpon>linked_list.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="linked_list_append_f.resx">
+      <DependentUpon>linked_list_append_f.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="linked_list_delete_f.resx">
+      <DependentUpon>linked_list_delete_f.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="linked_list_insert_f.resx">
+      <DependentUpon>linked_list_insert_f.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="linked_list_search_f.resx">
+      <DependentUpon>linked_list_search_f.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="merge_sort.resx">
+      <DependentUpon>merge_sort.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="profile.resx">
+      <DependentUpon>profile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="queue.resx">
+      <DependentUpon>queue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searching.resx">
+      <DependentUpon>searching.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sign_up.resx">
+      <DependentUpon>sign_up.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sorting.resx">
+      <DependentUpon>sorting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stack.resx">
+      <DependentUpon>stack.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\thunder.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\first %281%29 %281%29.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
