@@ -107,7 +107,7 @@ We had four weeks to develop the software. Dividing the time given to three main
  In this stage, we made a 10 page document outlining the requirements and have drawn dataflow diagrams and designed the interface. Database Schema and Level 1 DFD of the software has been given below.
 
 <p float="left">
-  <img src="/Database schema.png" />
+  <img src="/Database schema.png" width="500" />
   <img src="/Level 1 DFD.png" /> 
 </p>
 
