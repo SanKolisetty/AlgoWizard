@@ -106,7 +106,10 @@ We had four weeks to develop the software. Dividing the time given to three main
 - **Creating a Proposal**<br>
  In this stage, we made a 10 page document outlining the requirements and have drawn dataflow diagrams and designed the interface. Database Schema and Level 1 DFD of the software has been given below.
 
-![What do you want to learn today (13)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/0cd921ad-4bff-487a-a434-f1c11d369c0c)
+<p float="left">
+  <img src="/Database Schema.png" width="100" />
+  <img src="/Level 1 DFD.png" width="100" /> 
+</p>
 
 - **Starting Out** <br>
 
