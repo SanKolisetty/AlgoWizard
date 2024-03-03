@@ -84,6 +84,20 @@ and select `MySQL.Data.dll`. This creates the connection we require between the 
 The software is all set up to run.
 
 # Database Schema
-- The database schema includes a table named queue containing quiz questions and options.
-- It also includes a table named users to store user information and quiz progress.
 
+We have created a Database by the name `swe_assign2`. It contains 10 tables.
+
+- **users**: Stores all the details of the user and their progress so far
+- **array**: Stores the quiz questions of user
+- **stack**: Stores the quiz questions of stack
+- **queue**: Stores the quiz questions of queue
+- **linkedlist**: Stores the quiz questions of linked list
+- **linear_search**: Stores the quiz questions of linear search
+- **binary_search**: Stores the quiz questions of binary search
+- **bubble_sort**: Stores the quiz questions of bubble sort
+- **insertion_sort**: Stores the quiz questions of insertion sort
+- **merge_sort**: Stores the quiz questions merge sort
+
+Below is a picture of the database schema which contains the details of each table.
+
+![Blank diagram (2)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/e76bec88-44ce-4b03-b555-0f5de3ed08ed)
