@@ -115,11 +115,11 @@ We had four weeks to develop the software. Dividing the time given to three main
 
 - **Completion of the Software** <br>
 In the final stages of the software, we have further enhanced our software by adding extra features like
-  * User authentication to keep track of the user's progress <br>
+  * **User authentication to keep track of the user's progress:** <br>
   We use the `users` database to store the details of the user. The username and password are checked in the database to login the user. Otherwise, the user has to create an account which add the details of the user to the database for the user to directly login the next time.
-  * Profile page to show the user's progress in each topic
+  * **Profile page to show the user's progress in each topic:**<br>
     Since we have added user authentication to the software, we can always access the user's details from the database using the `username`, which is the primary key of the table `users`. These details are shown to the user in the profile page.
-  * Randomization of quiz questions<br>
+  * **Randomization of quiz questions:** <br>
     We have a set of 15 questions for each topic stored in a table in the database. Randomly, ten questions are shown to the user for the quiz. After the user attempts the quiz and submits it, his/her responses are checked agains the correct options in the database and progress of the user in that specific topic is modified to the maximum of the current progress and the score in the quiz where progress is equal to the number of questions answered correctly by the user. In case of searching and sorting, since we have sub-topics, the mean of the progress in each of the sub-topics is shown as the progress for that topic.
   
 
