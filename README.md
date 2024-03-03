@@ -43,6 +43,7 @@ The Data Structures Learning Software covers the following topics:
 Each learning module includes instructional content, interactive demonstrations, and quizzes tailored to the specific topic.
 
 # Demo
+[(Back to top)](#table-of-contents)
 
 Here is a [demo](https://youtu.be/fd7EICf8vKc) of the software application.
 
@@ -83,16 +84,16 @@ The software is all set up to run.
 
 We have created a Database by the name `swe_assign2`. It contains 10 tables.
 
-- `users`: Stores all the details of the user and their progress so far
-- `array`: Stores the quiz questions of user
-- `stack`: Stores the quiz questions of stack
-- `queue`: Stores the quiz questions of queue
-- `linkedlist`: Stores the quiz questions of linked list
-- `linear_search`: Stores the quiz questions of linear search
-- `binary_search`: Stores the quiz questions of binary search
-- `bubble_sort`: Stores the quiz questions of bubble sort
-- `insertion_sort`: Stores the quiz questions of insertion sort
-- `merge_sort`: Stores the quiz questions merge sort
+- `users` Stores all the details of the user and their progress so far
+- `array` Stores the quiz questions of user
+- `stack` Stores the quiz questions of stack
+- `queue` Stores the quiz questions of queue
+- `linkedlist` Stores the quiz questions of linked list
+- `linear_search` Stores the quiz questions of linear search
+- `binary_search` Stores the quiz questions of binary search
+- `bubble_sort` Stores the quiz questions of bubble sort
+- `insertion_sort` Stores the quiz questions of insertion sort
+- `merge_sort` Stores the quiz questions merge sort
 
 A picture of the database schema which contains the details of each table is given in the next section.
 
