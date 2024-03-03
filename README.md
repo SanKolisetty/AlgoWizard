@@ -2,13 +2,13 @@
 
 ![Banner](./banneraiimg.jpg)
 
-# AI Image Classifier
+The provided code represents a Windows Forms application of a Data Structures Learning Software implemented in VB.NET.  The application uses MySQL for data storage and retrieval.
 
-AI Image Classifier is a machine learning model that can effectively classify Real and AI Generated Images.
+The Data Structures Learning Software is a comprehensive tool designed to teach students fundamental concepts of data structures such as searching, sorting, arrays, stacks, queues, linked lists, etc. It provides step-by-step explanations, interactive learning modules, graphics, and quizzes to enhance the learning experience.
 
 # Table of Contents
 
-- [AI Image Classifier](#ai-image-classifier)
+- [AlgoWizard](#algowizard)
 - [Table of Contents](#table-of-contents)
 - [Brief Overview](#brief-overview)
 - [Demo](#demo)
@@ -21,12 +21,25 @@ AI Image Classifier is a machine learning model that can effectively classify Re
 # Brief Overview
 [(Back to top)](#table-of-contents)
 
-This project involved building a machine learning model that can classify real and AI generated images. The first step was to create a dataset comprising of AI-generated and real images. To accomplish this, `pygoogle_image` was used, with which images from Google were downloaded. Apart from Google Images, two more datasets were used.
+Key features of the Data Structures Learning Software include:
 
-- CIFAKE: Real and AI-Generated Synthetic Images 
-- Ai Generated Images | Images Created using Ai from Kaggle
+  - Step-by-step explanations of fundamental data structure concepts.
+  - Interactive learning modules with visualizations and demonstrations.
+  - Quizzes to test comprehension and reinforce learning.
+  - Progress tracking to monitor learning achievements over time.
 
-These images were preprocessed and features were extracted. Then, a Convolutional Nueral Network based Classifier model was constructed and trained on the dataset containing around 1,00,000 images.
+The Data Structures Learning Software covers the following topics:
+
+  - Searching Algorithms
+  - Sorting Algorithms
+  - Arrays
+  - Stacks
+  - Queues
+  - Linked Lists
+  - Trees
+  - Graphs
+    
+Each learning module includes instructional content, interactive demonstrations, and quizzes tailored to the specific topic.
 
 # Demo
 [(Back to top)](#table-of-contents)
@@ -34,6 +47,11 @@ These images were preprocessed and features were extracted. Then, a Convolutiona
 Here is a short demo of the deployed web application.
 
 https://github.com/SanKolisetty/AI-Image-Classifier/assets/95172001/0ebe3ffb-4afe-4a7b-96d3-80ce5e7ce99f
+
+# Dependencies
+- *System.Windows.Forms*: Provides classes for creating Windows-based applications.
+- *MySql.Data.MySqlClient*: Enables interaction with MySQL databases.
+- *MySQL Connector/NET*: The code imports MySql.Data.MySqlClient for MySQL database connectivity.
 
 # Installation
 [(Back to top)](#table-of-contents)
@@ -44,58 +62,144 @@ Open Git Bash and change the directory to the location where the repository is t
   git init
 ```
 ```shell
-  git clone https://github.com/SanKolisetty/AI-Image-Classifier.git
+  git clone https://github.com/SanKolisetty/AlgoWizard.git
 ```
-Now, install the requirements using the following command.
+Now, install mysql using the following link
+
+[MySQL installer](https://dev.mysql.com/downloads/installer/)
+
+Database write by Sanjana
+
+Execute the following code in terminal
 
 ```shell
-   pip install -r requirements.txt 
+  .\Assignment_2_8B\bin\Debug\Assignment_2_8B.exe
+
 ```
-To access or use the application, open a terminal in the cloned repository folder and run the following command.
+Finally, login or sign-up according to your requirements.
 
-```shell
-  streamlit run deploy.py
-```
-Finally, browse the link provided in your browser.
+# Database Schema
+- The database schema includes a table named queue containing quiz questions and options.
+- It also includes a table named users to store user information and quiz progress.
 
-# Data Sources
-[(Back to top)](#table-of-contents)
+# Code Structure
 
-The dataset comprised of Real and AI Generated Images. Images were collected from Google using the python library `pygoogle_image`. Every single image was verified to avoid issues such as incorrect and ambigous images. Two other datsets were also used.
+The code for modularity purposes is divided into the following classes
 
-- CIFAKE: Real and AI-Generated Synthetic Images ( [Link](https://www.kaggle.com/datasets/birdy654/cifake-real-and-ai-generated-synthetic-images) )
-- Ai Generated Images | Images Created using AI ( [Link](https://www.kaggle.com/datasets/anasmahmood000/ai-generated-images) )
+## Class: array
 
-Combing the three datasets, we have:
+### Classes and Structures
+1. *Array Class*:
+   - This class represents the main form of the application.
+   - It contains methods and event handlers for array manipulation, quiz handling, and UI interactions.
 
-- Train Set: 101031
-- Test Set: 20000
+2. *Question Class*:
+   - This is a nested class within the Array class.
+   - It represents a quiz question with text, options, and correct answer properties.
 
-# Model
-[(Back to top)](#table-of-contents)
+### UI Components
+1. *RichTextBox*: Used for displaying formatted text, such as code snippets and instructions.
+2. *Labels*: Used for displaying array elements and index labels.
+3. *Text Boxes*: Used for user input, such as array size, element values, and indices.
+4. *Radio Buttons*: Used for selecting quiz options.
+5. *Buttons*: Used for triggering various actions like array manipulation, quiz navigation, and submission.
 
-The CNN model was built similar to `VGG16` and was trained on the train dataset. The model has a `Convolutional` Layer, `MaxPooling` Layer and a `Dropout` Layer repeated four times with increasing sizes of filters of the Convolutional Layer i.e. 32, 64, 128, and 256. It has 3 dense layers. The activation for all the layers is `relu` except for the last layer, which has activation `sigmoid`. 
+### Methods and Functions
+- *DisplaySubstringInDifferentFont*: Formats a specified substring within a RichTextBox control with a different font.
+- *HighlightText*: Highlights specified text within a RichTextBox control.
+- *BoldText*: Makes specified text within a RichTextBox control bold.
+- *Load*: Initializes the form, sets default values for text boxes, and loads quiz questions.
+- *declare_array_Click*: Handles the click event for declaring arrays based on user input.
+- *initialize_Click*: Handles the click event for initializing array elements based on user input.
+- *insert_Click*: Handles the click event for inserting elements into arrays based on user input.
+- *clear_Click*: Handles the click event for clearing array elements and UI components.
+- *LoadQuizQuestions*: Loads quiz questions from a MySQL database.
+- *GetRandomQuestions*: Selects a random subset of quiz questions.
+- *DisplayQuestion*: Displays quiz questions and options based on the current question index.
+- *UpdateQuestionNumberDisplay*: Updates the display for the current question number out of total questions.
+- *rbOption_CheckedChanged*: Handles radio button selection events for quiz options.
+- *btnPrev_Click*: Handles the click event for navigating to the previous quiz question.
+- *btnNext_Click*: Handles the click event for navigating to the next quiz question.
+- *btnSubmit_Click*: Handles the click event for submitting quiz answers and displaying results.
+- *ShowQuizResults*: Calculates and displays quiz results.
+- *ShowQuizSection*: Displays the quiz section of the application.
 
-> The model architecture and model summary are uploaded.
+### Usage:
+- The application provides a GUI interface for users to interact with a array and take a quiz.
+- Users can interact with various UI components to manipulate arrays, take quizzes, and navigate through quiz questions.
+- They can also navigate through a series of quiz questions and submit their answers, which is then updated in their profile.
 
-# Testing and Evaluation
-[(Back to top)](#table-of-contents)
+## Class: queue
 
-On evaluation, model achieved an accuracy of 93.90% 
+### Attributes:
+- queue: A Queue data structure to store integer values.
+- questions: A List to hold quiz questions.
+- userAnswers: A Dictionary to store user answers for the quiz.
+- currentQuestionIndex: An integer representing the index of the current quiz question.
 
-Classification Report:
+### Methods and Functions:
 
-![image](https://github.com/SanKolisetty/AI-Image-Classifier/assets/95172001/e3e898a4-e43a-43fe-9f32-4e3d3aad2329)
+1. *Button1_Click*: Navigates back to the main menu form.
+2. *Form2_Load*: Initializes UI elements and displays the quiz section.
+3. *ShowQuizSection*: Resets quiz-related variables and loads quiz questions.
+4. *LoadQuizQuestions*: Retrieves quiz questions from the database.
+5. *GetRandomQuestions*: Selects a random subset of questions.
+6. *DisplayQuestion*: Displays the current quiz question and options.
+7. *UpdateQuestionNumberDisplay*: Updates the display of the current question number.
+8. *rbOption_CheckedChanged*: Updates the user's answer when a radio button is selected.
+9. *btnPrev_Click* and *btnNext_Click*: Navigates between quiz questions.
+10. *btnSubmit_Click*: Displays the quiz results.
+11. *queue_FormClose*: Handles form close event and navigates back to the main menu form.
+12. *queue_back_Click*: Handles the "Back" button click event.
+13. *Button2_Click*: Triggers the display of the quiz section.
+14. *EnqueueButton_Click, **DequeueButton_Click, **FrontButton_Click, **ClearButton_Click, **RearButton_Click*: Handle queue operations.
+15. *UpdateQueueDisplay*: Updates the display of the queue.
+16. *GetRear*: Retrieves the rear element of the queue.
+17. *TextBox_GotFocus* and *TextBox_LostFocus*: Manage text boxes' focus behavior.
+18. *PictureBox1_Click*: Navigates to the profile form.
 
-Confusion Matrix:
+### Usage:
+- The application provides a GUI interface for users to interact with a queue and take a quiz.
+- Users can enqueue, dequeue, view the front and rear elements, and clear the queue.
+- They can also navigate through a series of quiz questions and submit their answers.
+- Quiz results are stored in the users table in the database.
 
-![image](https://github.com/SanKolisetty/AI-Image-Classifier/assets/95172001/846b99e3-7dc7-4fcb-980c-890d380eae3b)
+## Class: stack
 
-> 0 is Real and 1 is AI Generated
+### Attributes:
+- stack: An instance of the LimitedSizeStack(Of Integer) class, used to store integer values in a stack with a maximum size of 9.
+ - _maxSize: An integer representing the maximum size of the stack.
+- _stack: An instance of the Stack(Of T) class used to store elements.
+  
+### Methods:
+1. *Button1_Click*: Event handler for the button responsible for navigating to the main menu form.
+2. *Button2_Click*: Event handler for the button responsible for pushing a value onto the stack.
+3. *Button3_Click*: Event handler for the button responsible for popping a value from the stack.
+4. *Button4_Click*: Event handler for the button responsible for peeking at the top value of the stack.
+5. *UpdateStackDisplay*: Updates the display of stack elements on the form.
+6. *Form2_Load*: Event handler for loading the form; initializes form elements and loads the quiz section.
+7. *Button5_Click*: Event handler for the button responsible for clearing the stack.
+8. *LoadQuizQuestions*: Loads quiz questions from a MySQL database.
+9. *GetRandomQuestions*: Selects a random subset of questions from the loaded questions.
+10. *DisplayQuestion*: Displays a quiz question on the form.
+11. *UpdateQuestionNumberDisplay*: Updates the display of the current question number.
+12. *rbOption_CheckedChanged*: Event handler for radio button selection in the quiz section.
+13. *btnPrev_Click*: Event handler for the "Previous" button click in the quiz section.
+14. *btnNext_Click*: Event handler for the "Next" button click in the quiz section.
+15. *btnSubmit_Click*: Event handler for the "Submit" button click in the quiz section.
+16. *ShowQuizResults*: Calculates and displays quiz results.
+17. *ShowQuizSection*: Displays the quiz section of the form.
+18. *txtInput_GotFocus, **txtInput_LostFocus, **popTextBox_GotFocus, **popTextBox_LostFocus, **PeekTextBox_GotFocus, **PeekTextBox_LostFocus*: Event handlers for text box focus events.
 
-# Deployment
-[(Back to top)](#table-of-contents)
+#### Testing
 
-The application has been deployed in the Streamlit Cloud.
 
-You can access it here: [https://ai-image-classifier-sk.streamlit.app/](https://ai-image-classifier-sk.streamlit.app/)
+
+
+#### Further Scope
+
+
+
+
+
+
