@@ -12,12 +12,9 @@ This application has been built as a Windows Forms application in VB.NET. It use
 - [Table of Contents](#table-of-contents)
 - [Brief Overview](#brief-overview)
 - [Demo](#demo)
-- [Dependencies](#dependencies)
 - [Installation](#installation)
-- [Data Sources](#data-sources)
-- [Model](#model)
-- [Testing and Evaluation](#testing-and-evaluation)
-- [Deployment](#deployment)
+- [Database Schema](#database-schema)
+- [Design of the Software](#design-of-the-software)
 
 # Brief Overview
 [(Back to top)](#table-of-contents)
@@ -49,14 +46,14 @@ Here is a short demo of the deployed web application.
 
 https://github.com/SanKolisetty/AI-Image-Classifier/assets/95172001/0ebe3ffb-4afe-4a7b-96d3-80ce5e7ce99f
 
-# Dependencies
+# Installation
 [(Back to top)](#table-of-contents)
+
+The following are required to set up and run the software: 
+
 - **Visual Studio 2010**: IDE for running the project
 - **MySQL**: For creating databases required for the project
 - **MySQL Connector/NET**: Required for connecting database to the project
-
-# Installation
-[(Back to top)](#table-of-contents)
 
 Open Git Bash and change the directory to the location where the repository is to be cloned. Then, type the following commands.
 
@@ -84,6 +81,7 @@ and select `MySQL.Data.dll`. This creates the connection we require between the 
 The software is all set up to run.
 
 # Database Schema
+[(Back to top)](#table-of-contents)
 
 We have created a Database by the name `swe_assign2`. It contains 10 tables.
 
@@ -101,3 +99,5 @@ We have created a Database by the name `swe_assign2`. It contains 10 tables.
 Below is a picture of the database schema which contains the details of each table.
 
 ![Blank diagram (2)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/e76bec88-44ce-4b03-b555-0f5de3ed08ed)
+
+
