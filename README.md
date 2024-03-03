@@ -100,4 +100,18 @@ Below is a picture of the database schema which contains the details of each tab
 
 ![Blank diagram (2)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/e76bec88-44ce-4b03-b555-0f5de3ed08ed)
 
+# Design of the Software
+[(Back to top)](#table-of-contents)
+
+We had four weeks to develop the software. Dividing the time given to three main periods, i.e. creating a proposal, starting out and completion of the software, here is a dive into the three stages of the software developement.
+
+- **Creating a Proposal**
+ In this stage, we made a 10 page document outlining the requirements and have drawn dataflow diagrams and designed the interface. Level 1 DFD of the software has been given below.
+  
+![Level 1 (3)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/42781248-2b4d-4b75-a9ad-0adb6ad5550a)
+
+- **Starting Out**
+  We have followed the `Incremental Model` of software developement process. Thus, we started with the basic features like main menu for selection of learning topic and visualization of each topic. Below are the pictures of textual information, interactive visualization and quiz added as a part of the initial stages of the developement process.
+
+  
 
