@@ -51,9 +51,9 @@ https://github.com/SanKolisetty/AI-Image-Classifier/assets/95172001/0ebe3ffb-4af
 
 # Dependencies
 [(Back to top)](#table-of-contents)
-- *System.Windows.Forms*: Provides classes for creating Windows-based applications.
-- *MySql.Data.MySqlClient*: Enables interaction with MySQL databases.
-- *MySQL Connector/NET*: The code imports MySql.Data.MySqlClient for MySQL database connectivity.
+- **Visual Studio 2010**: IDE for running the project
+- **MySQL**: For creating databases required for the project
+- **MySQL Connector/NET**: Required for connecting database to the project
 
 # Installation
 [(Back to top)](#table-of-contents)
