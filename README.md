@@ -108,8 +108,6 @@ We had four weeks to develop the software. Dividing the time given to three main
 - **Creating a Proposal**<br>
  In this stage, we made a 10 page document outlining the requirements and have drawn dataflow diagrams and designed the interface. Level 1 DFD of the software has been given below.
   
-![Level 1 (3)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/42781248-2b4d-4b75-a9ad-0adb6ad5550a)  ![Screenshot 2024-03-03 234221](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/fae3d3b5-a2df-4be3-b2a4-08cefdc7f79b) ![Screenshot 2024-03-03 234257](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/3f28286b-803d-48da-b289-5b7bcd4c9443) ![Screenshot 2024-03-03 234326](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/86c5247b-e61e-45f3-83b7-f781d722412f)
-
 
 - **Starting Out** <br>
 
