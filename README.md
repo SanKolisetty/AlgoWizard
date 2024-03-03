@@ -120,6 +120,9 @@ In the final stages of the software, we have further enhanced our software by ad
   We use the `users` database to store the details of the user. The username and password are checked in the database to login the user. Otherwise, the user has to create an account which add the details of the user to the database for the user to directly login the next time.
   * **Profile page to show the user's progress in each topic:**<br>
     Since we have added user authentication to the software, we can always access the user's details from the database using the `username`, which is the primary key of the table `users`. These details are shown to the user in the profile page.
+    
+![What do you want to learn today (14)](https://github.com/SanKolisetty/AlgoWizard/assets/95172001/2201d6b0-1420-4d9b-8e52-86b6b90f82b5)
+
   * **Randomization of quiz questions:** <br>
     We have a set of 15 questions for each topic stored in a table in the database. Randomly, ten questions are shown to the user for the quiz. After the user attempts the quiz and submits it, his/her responses are checked agains the correct options in the database and progress of the user in that specific topic is modified to the maximum of the current progress and the score in the quiz where progress is equal to the number of questions answered correctly by the user. In case of searching and sorting, since we have sub-topics, the mean of the progress in each of the sub-topics is shown as the progress for that topic.
 
