@@ -139,4 +139,10 @@ In the final stages of the software, we have further enhanced our software by ad
   * **Randomization of quiz questions:** <br>
     We have a set of 15 questions for each topic stored in a table in the database. Randomly, ten questions are shown to the user for the quiz. After the user attempts the quiz and submits it, his/her responses are checked agains the correct options in the database and progress of the user in that specific topic is modified to the maximum of the current progress and the score in the quiz where progress is equal to the number of questions answered correctly by the user. In case of searching and sorting, since we have sub-topics, the mean of the progress in each of the sub-topics is shown as the progress for that topic.
 
+# Authors
+[(Back to top)](#table-of-contents)
+
+**Team 8B:** Sahil Danayak, Sanjana Kolisetty, Sannidhi Hemanth, Satyarth Gupta, Shally Kandoi, Shashank Kumar
+
+
 
