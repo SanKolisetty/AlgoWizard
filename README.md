@@ -13,6 +13,7 @@ This application has been built as a Windows Forms application in VB.NET. It use
 - [AlgoWizard](#algowizard)
 - [Table of Contents](#table-of-contents)
 - [Brief Overview](#brief-overview)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Database Schema](#database-schema)
 - [Design of the Software](#design-of-the-software)
@@ -40,6 +41,12 @@ The Data Structures Learning Software covers the following topics:
   - Linked Lists
     
 Each learning module includes instructional content, interactive demonstrations, and quizzes tailored to the specific topic.
+
+# Demo
+
+Here is a demo of the software application.
+
+![]([https://github.com/Voyz/voyz_public/blob/master/databay_promo_vidA_gif_A03.gif](https://github.com/SanKolisetty/AlgoWizard/blob/main/AlgoWizard%20Demo.mp4))
 
 # Installation
 [(Back to top)](#table-of-contents)
